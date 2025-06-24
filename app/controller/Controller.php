@@ -274,7 +274,7 @@ class Controller {
             $mail->SMTPAuth   = true;
             $mail->Username   = 'fwsproba@geroly.nhely.hu';
             $mail->Password   = 'fwsteszt123';
-            $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS; // Use TLS encryption           
+            $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;          
             $mail->Port       = 465;
 
             $mail->setFrom('fwsproba@geroly.nhely.hu', 'Változás értesítő');

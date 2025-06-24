@@ -76,7 +76,7 @@ require_once "header.php";
         div.appendChild(createInputGroup("Kapcsolattartó neve", "text", "name", name));
         div.appendChild(createInputGroup("Kapcsolattartó email címe", "email", "email", email));
 
-        // Így is működne, de megnyújtja a contact kártyákat a lebel miatt
+        // Így is működne, de megnyújtja a contact kártyákat a lebel miatt, nem szép
         // div.appendChild(createInputGroup(null, "hidden", "contact_id", id));
 
         // Külön hidden input mező a kapcsolattartó azonosítójának
