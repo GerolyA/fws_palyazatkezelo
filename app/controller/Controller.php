@@ -273,7 +273,7 @@ class Controller {
             $mail->Host       = 'mail.nethely.hu';
             $mail->SMTPAuth   = true;
             $mail->Username   = 'fwsproba@geroly.nhely.hu';
-            $mail->Password   = 'fwsteszt123';
+            $mail->Password   = '';
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;          
             $mail->Port       = 465;
 
